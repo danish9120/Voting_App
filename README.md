@@ -115,6 +115,7 @@ MySQL database integration
 CRUD operations
 API testing using Postman
 Maven project management
+
 👨‍💻 Author
 
 Danish Margoob
