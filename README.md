@@ -65,6 +65,7 @@ src/main/resources/application.properties
 Example:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/voting_app
+
 spring.datasource.username=root
 spring.datasource.password=**********
 
@@ -101,6 +102,7 @@ Database entities are mapped using JPA annotations such as:
 @Entity
 @Id
 @GeneratedValue
+
 🎯 Learning Outcomes
 
 Through this project, I practiced:
@@ -117,7 +119,6 @@ API testing using Postman
 Maven project management
 
 👨‍💻 Author
-
 Danish Margoob
 
 GitHub:
