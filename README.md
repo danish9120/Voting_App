@@ -20,24 +20,8 @@ Store application data in MySQL
 RESTful API architecture
 Layered architecture using Controller, Service, and Repository layers
 JPA/Hibernate for database operations
-🏗️ Project Structure
-Voting_App
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── ...
-│   │   └── resources
-│   │       └── application.properties
-│   │
-│   └── test
-│
-├── pom.xml
-├── mvnw
-├── mvnw.cmd
-└── README.md
-🔄 Architecture
 
+🔄 Architecture
 The application follows a layered architecture:
 
 Client / Postman
@@ -82,12 +66,10 @@ Example:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/voting_app
 spring.datasource.username=root
-spring.datasource.password=YOUR_PASSWORD
+spring.datasource.password=**********
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
-Replace YOUR_PASSWORD with your local MySQL password. Do not commit real passwords or other secrets to GitHub.
 
 4. Run the application
 
