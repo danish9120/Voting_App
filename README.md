@@ -67,6 +67,7 @@ Example:
 spring.datasource.url=jdbc:mysql://localhost:3306/voting_app
 
 spring.datasource.username=root
+
 spring.datasource.password=**********
 
 spring.jpa.hibernate.ddl-auto=update
@@ -118,7 +119,8 @@ CRUD operations
 API testing using Postman
 Maven project management
 
-👨‍💻 Author
+👨‍💻 Author:
+
 Danish Margoob
 
 GitHub:
